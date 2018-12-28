@@ -1,0 +1,12 @@
+# Enable TLS on port 443
+server.port: 443
+server.ssl.key-store: classpath:tomcat.p12
+server.ssl.key-store-password: 1ndigo
+server.ssl.key-store-type: PKCS12
+server.ssl.key-alias: tomcat
+alexa.skill.id: amzn1.ask.skill.243c2080-6c44-406d-937a-a8ceda19bd99
+
+
+# Configure logging
+logging.level: 
+  de.qaware.alexa.warehouse: TRACE
